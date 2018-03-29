@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import ApiFetch from './components/ApiFetch.js'
+import ApiFetch2 from './components/ApiFetch2.js'
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
           <h1 className="App-title">Test API</h1>
         </header>
         <ApiFetch />
+        <ApiFetch2 />
       </div>
     );
   }
